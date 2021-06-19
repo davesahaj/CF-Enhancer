@@ -1,0 +1,76 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.roundbox {
+  background: #fff;
+  border: 0px;
+  border-radius: 8px;
+
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+
+  -webkit-transition: -webkit-box-shadow 0.4s;
+  transition: -webkit-box-shadow 0.4s;
+  -o-transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, -webkit-box-shadow 0.4s;
+}
+
+.roundbox:hover {
+  -webkit-box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.roundbox .roundbox-lt {
+  background: none;
+}
+.roundbox .roundbox-rt {
+  background: none;
+}
+.roundbox .roundbox-lb {
+  background: none;
+}
+.roundbox .roundbox-rb {
+  background: none;
+}
+a {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:link {
+  cursor: pointer;
+  color: #0088cc;
+  text-decoration: none;
+}
+a:link:hover {
+  color: #00aaff;
+}
+
+#header {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.main-menu-list li a {
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.second-level-menu-list li a {
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+#pageContent {
+  background-color: #fff;
+
+  padding: 5px;
+  border-radius: 8px;
+
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
